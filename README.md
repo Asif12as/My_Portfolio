@@ -29,12 +29,7 @@ A modern, responsive developer portfolio built with React, TypeScript, and Tailw
   <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" alt="Framer Motion" />
 </p>
 
-## 🖥️ Screenshots
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Asif12as/portfolio-assets/main/portfolio-dark.png" alt="Dark Mode" width="45%" />
-  <img src="https://raw.githubusercontent.com/Asif12as/portfolio-assets/main/portfolio-light.png" alt="Light Mode" width="45%" />
-</div>
 
 ## 🚀 Getting Started
 
