@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-![Portfolio Home Preview](https://raw.githubusercontent.com/Asif12as/portfolio-assets/main/portfolio-preview.png)
+![Portfolio Home Preview](prtfoliohme.JPG)
 
 A modern, responsive developer portfolio built with React, TypeScript, and Tailwind CSS.
 
