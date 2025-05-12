@@ -6,7 +6,7 @@ A modern, responsive developer portfolio built with React, TypeScript, and Tailw
 
 ## 🌟 Live Demo
 
-[View Live Demo](https://ashif-portfolio.vercel.app)
+[View Live Demo](https://ashif-dev-protfolio.vercel.app/)
 
 ## ✨ Features
 
