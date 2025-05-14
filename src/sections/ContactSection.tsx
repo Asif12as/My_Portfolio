@@ -42,7 +42,7 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id, onVisible }) => {
     
     try {
       // Submit form data to Formspree
-      const response = await fetch('https://formspree.io/f/mda957947@gmail.com', {
+      const response = await fetch('https://formspree.io/f/xgvkrakr', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
