@@ -86,8 +86,8 @@ const projectsData: Project[] = [
     image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
     technologies: ["Python", "Darknet", "YOLOv3", "OpenCV", "NumPy", "Matplotlib"],
     category: "ai",
-    githubLink: "https://github.com/yourusername/VisionTrack",
-    demoLink: "https://github.com/yourusername/VisionTrack",
+    githubLink: "https://github.com/Asif12as/vision_tracking_system",
+    demoLink: "https://github.com/Asif12as/vision_tracking_system",
     featured: true
   },
   {
@@ -97,8 +97,8 @@ const projectsData: Project[] = [
     image: "https://images.pexels.com/photos/2088203/pexels-photo-2088203.jpeg",
     technologies: ["PHP", "HTML", "CSS", "JavaScript", "MySQL"],
     category: "fullstack",
-    githubLink: "https://github.com/yourusername/vivid-spectrum-seer",
-    demoLink: "https://colorsorceryquest.in/login.php",
+    githubLink: "https://github.com/Asif12as/Bet_on_colors",
+    demoLink: "https://github.com/Asif12as/Bet_on_colors",
     featured: false
   },
   {
@@ -108,8 +108,8 @@ const projectsData: Project[] = [
     image: "https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg",
     technologies: ["JavaScript", "Node.js", "Telegraf", "Telegram Bot API", "REST APIs"],
     category: "backend",
-    githubLink: "https://github.com/yourusername/bot_nodejs",
-    demoLink: "https://github.com/yourusername/bot_nodejs",
+    githubLink: "https://github.com/Asif12as/bot_nodejs",
+    demoLink: "https://github.com/Asif12as/bot_nodejs",
     featured: false
   }
 ];
