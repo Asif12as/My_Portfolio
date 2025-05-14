@@ -36,31 +36,60 @@ const ContactSection: React.FC<ContactSectionProps> = ({ id, onVisible }) => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      // Submit form data to Formspree
+      const response = await fetch('https://formspree.io/f/mda957947@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message
+        })
+      });
+      
+      if (response.ok) {
+        // Success
+        setSubmitStatus({
+          success: true,
+          message: "Your message has been sent! I'll get back to you soon."
+        });
+        
+        // Reset form
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        // Error
+        setSubmitStatus({
+          success: false,
+          message: "Oops! Something went wrong. Please try again or contact me directly via email."
+        });
+      }
+    } catch (error) {
+      // Network or other error
       setSubmitStatus({
-        success: true,
-        message: "Your message has been sent! I'll get back to you soon."
+        success: false,
+        message: "Oops! Something went wrong. Please try again or contact me directly via email."
       });
+    } finally {
+      setIsSubmitting(false);
       
-      // Reset form
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      });
-      
-      // Clear success message after 5 seconds
+      // Clear status message after 5 seconds
       setTimeout(() => {
         setSubmitStatus(null);
       }, 5000);
-    }, 1500);
+    }
   };
 
   const contactInfo = [
