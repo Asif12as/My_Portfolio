@@ -24,7 +24,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id, onVisible }) => {
   };
 
   const handleResumeDownload = () => {
-    window.open('https://drive.google.com/file/d/1A5yKMKIINdDP6uCzoLBzWh5WjkISiAae/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/10INwQbvKh4xMBrJzEE6EFtd1z9NNj3Qj/view?usp=sharing', '_blank');
   };
 
   return (
