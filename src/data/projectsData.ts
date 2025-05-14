@@ -78,6 +78,39 @@ const projectsData: Project[] = [
     githubLink: "https://github.com/Asif12as/E-Commerce_Microservices",
     demoLink: "https://github.com/Asif12as/E-Commerce_Microservices",
     featured: true
+  },
+  {
+    id: 7,
+    title: "VisionTrack: AI-powered Object Detection System",
+    description: "An advanced real-time object detection system built with Darknet and YOLOv3, achieving 55.3% mAP on COCO dataset. Designed for surveillance, autonomous driving, and video analytics applications.",
+    image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
+    technologies: ["Python", "Darknet", "YOLOv3", "OpenCV", "NumPy", "Matplotlib"],
+    category: "ai",
+    githubLink: "https://github.com/yourusername/VisionTrack",
+    demoLink: "https://github.com/yourusername/VisionTrack",
+    featured: true
+  },
+  {
+    id: 8,
+    title: "Vivid Spectrum Seer: Color Prediction Game",
+    description: "A vibrant web platform where users can interact, engage, and bet on colors in an exciting prediction game. Features secure transactions, real-time user interaction, and a visually appealing interface.",
+    image: "https://images.pexels.com/photos/2088203/pexels-photo-2088203.jpeg",
+    technologies: ["PHP", "HTML", "CSS", "JavaScript", "MySQL"],
+    category: "fullstack",
+    githubLink: "https://github.com/yourusername/vivid-spectrum-seer",
+    demoLink: "https://colorsorceryquest.in/login.php",
+    featured: false
+  },
+  {
+    id: 9,
+    title: "Smart Telegram Bot",
+    description: "A versatile and intelligent Telegram bot built with Node.js and Telegraf framework. Features interactive commands, real-time responses, and seamless integration with various APIs for enhanced functionality.",
+    image: "https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg",
+    technologies: ["JavaScript", "Node.js", "Telegraf", "Telegram Bot API", "REST APIs"],
+    category: "backend",
+    githubLink: "https://github.com/yourusername/bot_nodejs",
+    demoLink: "https://github.com/yourusername/bot_nodejs",
+    featured: false
   }
 ];
 
