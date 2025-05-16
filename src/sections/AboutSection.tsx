@@ -72,7 +72,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ id, onVisible }) => {
                 where I developed a strong foundation in computer science fundamentals and software engineering principles.
               </p>
               <p>
-               "My experience spans multiple domains including frontend development for a Canadian startup, AI training and evaluation for advanced models, blockchain development with Ethereum, and full-stack Java application development. I've built diverse projects ranging from Enterprise Database Migration Tools to responsive e-commerce platforms. I thrive in fast-paced environments, passionate about embracing new technologies and solving complex problems across different technical domains.
+               My experience spans multiple domains including frontend development for a Canadian startup, AI training and evaluation for advanced models, blockchain development with Ethereum, and full-stack Java application development. I've built diverse projects ranging from Enterprise Database Migration Tools to responsive e-commerce platforms. I thrive in fast-paced environments, passionate about embracing new technologies and solving complex problems across different technical domains.
               </p>
               <p>
                 I believe in writing clean, maintainable code and following best practices. I enjoy working in collaborative
