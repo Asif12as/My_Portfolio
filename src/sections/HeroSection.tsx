@@ -65,7 +65,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ id, onVisible }) => {
               </h2>
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl">
                 Full Stack Developer with expertise in React,SpringBoot, Hibernate, Angular, Node.js, and MySQL. 
-                Passionate about building scalable web applications and solving complex problems.
+                Passionate about building scalable web applications, AI Integration and solving complex problems.
               </p>
               
               <div className="flex flex-wrap justify-center md:justify-start gap-4">
