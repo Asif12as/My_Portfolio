@@ -17,9 +17,9 @@ const projectsData: Project[] = [
   "id": 1,
   "title": "AI-Powered Real-Time Search Assistant",
   "description": "An intelligent workflow automation that integrates OpenAI with SerpAPI to deliver real-time information in a conversational format. Features memory storage for context retention, natural language processing, and dynamic data fetching capabilities.",
-  "image": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+  "image": "https://images.unsplash.com/photo-1677442136019-21780ecad99",
   "technologies": ["Next.js", "n8n", "OpenAI API", "SerpAPI", "Workflow Automation", "API Integration", "Memory Storage"],
-  "category": "ai-integration",
+  "category": "ai",
   "githubLink": "https://github.com/Asif12as/QuerySense_AI_Model",
   "demoLink": "https://query-sense-ai-model-1p1b.vercel.app/",
   "featured": true
