@@ -13,8 +13,19 @@ export interface Project {
 }
 
 const projectsData: Project[] = [
+   {
+  "id": 1,
+  "title": "AI-Powered Real-Time Search Assistant",
+  "description": "An intelligent workflow automation that integrates OpenAI with SerpAPI to deliver real-time information in a conversational format. Features memory storage for context retention, natural language processing, and dynamic data fetching capabilities.",
+  "image": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+  "technologies": ["Next.js", "n8n", "OpenAI API", "SerpAPI", "Workflow Automation", "API Integration", "Memory Storage"],
+  "category": "ai-integration",
+  "githubLink": "https://github.com/Asif12as/QuerySense_AI_Model",
+  "demoLink": "https://query-sense-ai-model-1p1b.vercel.app/",
+  "featured": true
+},
   {
-    id: 1,
+    id: 2,
     title: "Enterprise Database Migration Tool",
     description: "A robust tool designed for seamless migration of enterprise databases, ensuring data integrity and minimal downtime during transitions.",
     image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
@@ -25,7 +36,7 @@ const projectsData: Project[] = [
     featured: true
   },
    {
-    id: 2,
+    id: 3,
     title: "Live Poll Battle",
     description: "A real-time polling app with live updates, vote tracking, analytics, and winner celebrations for interactive voting.",
     image: "https://images.pexels.com/photos/7054528/pexels-photo-7054528.jpeg",
@@ -35,17 +46,7 @@ const projectsData: Project[] = [
     demoLink: "https://livepollbattle.vercel.app/",
     featured: true
   },
-  {
-  "id": 3,
-  "title": "AI-Powered Real-Time Search Assistant",
-  "description": "An intelligent workflow automation that integrates OpenAI with SerpAPI to deliver real-time information in a conversational format. Features memory storage for context retention, natural language processing, and dynamic data fetching capabilities.",
-  "image": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
-  "technologies": ["Next.js", "n8n", "OpenAI API", "SerpAPI", "Workflow Automation", "API Integration", "Memory Storage"],
-  "category": "ai-integration",
-  "githubLink": "https://github.com/Asif12as/QuerySense_AI_Model",
-  "demoLink": "https://query-sense-ai-model-1p1b.vercel.app/",
-  "featured": true
-},
+ 
   {
     id: 4,
     title: "DLP Chrome Extension",
