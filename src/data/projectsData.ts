@@ -36,7 +36,18 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 3,
+  "id": 3,
+  "title": "AI-Powered Real-Time Search Assistant",
+  "description": "An intelligent workflow automation that integrates OpenAI with SerpAPI to deliver real-time information in a conversational format. Features memory storage for context retention, natural language processing, and dynamic data fetching capabilities.",
+  "image": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg",
+  "technologies": ["Next.js", "n8n", "OpenAI API", "SerpAPI", "Workflow Automation", "API Integration", "Memory Storage"],
+  "category": "ai-integration",
+  "githubLink": "https://github.com/Asif12as/QuerySense_AI_Model",
+  "demoLink": "https://query-sense-ai-model-1p1b.vercel.app/",
+  "featured": true
+},
+  {
+    id: 4,
     title: "DLP Chrome Extension",
     description: "A Chrome extension for Data Loss Prevention that helps protect sensitive information while browsing.",
     image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg",
@@ -48,7 +59,7 @@ const projectsData: Project[] = [
   },
  
    {
-    id: 4,
+    id: 5,
     title: "Smart Telegram Bot",
     description: "A versatile and intelligent Telegram bot built with Node.js and Telegraf framework. Features interactive commands, real-time responses, and seamless integration with various APIs for enhanced functionality.",
     image: "https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg",
@@ -59,7 +70,7 @@ const projectsData: Project[] = [
     featured: false
   },
   {
-    id: 5,
+    id: 6,
     title: "OwN IT E-Commerce",
     description: "A full-featured e-commerce platform with product management, user authentication, and payment processing.",
     image: "https://images.pexels.com/photos/6956800/pexels-photo-6956800.jpeg",
@@ -70,7 +81,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 6,
+    id: 7,
     title: "ASD Early Detection System",
     description: "An AI-powered system for early detection of Autism Spectrum Disorder using machine learning algorithms.",
     image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
@@ -81,7 +92,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 7,
+    id: 8,
     title: "E-Commerce Microservices Architecture",
     description: "A modern distributed system with API Gateway, rate limiting, caching, and scalable microservices for e-commerce.",
     image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
@@ -92,7 +103,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 8,
+    id: 9,
     title: "VisionTrack: AI-powered Object Detection System",
     description: "An advanced real-time object detection system built with Darknet and YOLOv3, achieving 55.3% mAP on COCO dataset. Designed for surveillance, autonomous driving, and video analytics applications.",
     image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
@@ -103,7 +114,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 9,
+    id: 10,
     title: "Vivid Spectrum Seer: Color Prediction Game",
     description: "A vibrant web platform where users can interact, engage, and bet on colors in an exciting prediction game. Features secure transactions, real-time user interaction, and a visually appealing interface.",
     image: "https://images.pexels.com/photos/2088203/pexels-photo-2088203.jpeg",
