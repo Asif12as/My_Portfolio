@@ -13,11 +13,11 @@ export interface Project {
 }
 
 const projectsData: Project[] = [
-   {
+  {
   "id": 1,
   "title": "AI-Powered Real-Time Search Assistant",
   "description": "An intelligent workflow automation that integrates OpenAI with SerpAPI to deliver real-time information in a conversational format. Features memory storage for context retention, natural language processing, and dynamic data fetching capabilities.",
-  "image": "https://images.unsplash.com/photo-1677442136019-21780ecad99",
+  "image": "https://raw.githubusercontent.com/Asif12as/portfolio-assets/main/ai-assistant.png",
   "technologies": ["Next.js", "n8n", "OpenAI API", "SerpAPI", "Workflow Automation", "API Integration", "Memory Storage"],
   "category": "ai",
   "githubLink": "https://github.com/Asif12as/QuerySense_AI_Model",
