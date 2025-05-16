@@ -24,17 +24,17 @@ const projectsData: Project[] = [
   "demoLink": "https://query-sense-ai-model-1p1b.vercel.app/",
   "featured": true
 },
-  {
-    id: 2,
-    title: "Enterprise Database Migration Tool",
-    description: "A robust tool designed for seamless migration of enterprise databases, ensuring data integrity and minimal downtime during transitions.",
-    image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
-    technologies: ["Java", "Spring Boot", "MySQL", "PostgreSQL", "MongoDB", "Docker", "REST API"],
-    category: "backend",
-    githubLink: "https://github.com/Asif12as/EnterpriseDBMigrator_Tool",
-    demoLink: "https://github.com/Asif12as/EnterpriseDBMigrator_Tool",
-    featured: true
-  },
+ {
+  "id": 2,
+  "title": "Enterprise Database Migration Tool",
+  "description": "A robust tool designed for seamless migration of enterprise databases, ensuring data integrity and minimal downtime during transitions.",
+  "image": "https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg",
+  "technologies": ["Java", "Spring Boot","React", "MySQL", "PostgreSQL", "MongoDB", "Docker", "REST API"],
+  "category": "backend",
+  "githubLink": "https://github.com/Asif12as/EnterpriseDBMigrator_Tool",
+  "demoLink": "https://github.com/Asif12as/EnterpriseDBMigrator_Tool",
+  "featured": true
+},
    {
     id: 3,
     title: "Live Poll Battle",
