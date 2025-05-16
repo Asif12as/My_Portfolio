@@ -23,7 +23,7 @@ const projectsData: Project[] = [
   "githubLink": "https://github.com/Asif12as/QuerySense_AI_Model",
   "demoLink": "https://query-sense-ai-model-1p1b.vercel.app/",
   "featured": true
-}
+},
   {
     id: 2,
     title: "Enterprise Database Migration Tool",
