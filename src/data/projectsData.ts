@@ -35,8 +35,19 @@ const projectsData: Project[] = [
   "demoLink": "https://github.com/Asif12as/EnterpriseDBMigrator_Tool",
   "featured": true
 },
+  {
+  "id": 3,
+  "title": "AI-Powered Workflow Automation Suite",
+  "description": "A comprehensive collection of n8n workflows designed to automate content creation, data retrieval, and business processes. Features include AI-generated social media shorts production, real-time stock query chatbot, inspirational post generation, and fraud detection systems.",
+  "image": "https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg",
+  "technologies": ["n8n", "OpenAI API", "GPT", "SerpAPI", "REST APIs", "Stable Diffusion", "DALL-E", "Instagram API", "Telegram API", "Webhook Integration"],
+  "category": "automation",
+  "githubLink": "https://github.com/Asif12as/n8n-automation-workflows",
+  "demoLink": "https://github.com/Asif12as/n8n-automation-workflows",
+  "featured": true
+},
    {
-    id: 3,
+    id: 4,
     title: "Live Poll Battle",
     description: "A real-time polling app with live updates, vote tracking, analytics, and winner celebrations for interactive voting.",
     image: "https://images.pexels.com/photos/7054528/pexels-photo-7054528.jpeg",
@@ -48,7 +59,7 @@ const projectsData: Project[] = [
   },
  
   {
-    id: 4,
+    id: 5,
     title: "DLP Chrome Extension",
     description: "A Chrome extension for Data Loss Prevention that helps protect sensitive information while browsing.",
     image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg",
@@ -60,7 +71,7 @@ const projectsData: Project[] = [
   },
  
    {
-    id: 5,
+    id: 6,
     title: "Smart Telegram Bot",
     description: "A versatile and intelligent Telegram bot built with Node.js and Telegraf framework. Features interactive commands, real-time responses, and seamless integration with various APIs for enhanced functionality.",
     image: "https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg",
@@ -71,7 +82,7 @@ const projectsData: Project[] = [
     featured: false
   },
   {
-    id: 6,
+    id: 7,
     title: "OwN IT E-Commerce",
     description: "A full-featured e-commerce platform with product management, user authentication, and payment processing.",
     image: "https://images.pexels.com/photos/6956800/pexels-photo-6956800.jpeg",
@@ -82,7 +93,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 7,
+    id: 8,
     title: "ASD Early Detection System",
     description: "An AI-powered system for early detection of Autism Spectrum Disorder using machine learning algorithms.",
     image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg",
@@ -93,7 +104,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 8,
+    id: 9,
     title: "E-Commerce Microservices Architecture",
     description: "A modern distributed system with API Gateway, rate limiting, caching, and scalable microservices for e-commerce.",
     image: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg",
@@ -104,7 +115,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 9,
+    id: 10,
     title: "VisionTrack: AI-powered Object Detection System",
     description: "An advanced real-time object detection system built with Darknet and YOLOv3, achieving 55.3% mAP on COCO dataset. Designed for surveillance, autonomous driving, and video analytics applications.",
     image: "https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg",
@@ -115,7 +126,7 @@ const projectsData: Project[] = [
     featured: true
   },
   {
-    id: 10,
+    id: 11,
     title: "Vivid Spectrum Seer: Color Prediction Game",
     description: "A vibrant web platform where users can interact, engage, and bet on colors in an exciting prediction game. Features secure transactions, real-time user interaction, and a visually appealing interface.",
     image: "https://images.pexels.com/photos/2088203/pexels-photo-2088203.jpeg",
