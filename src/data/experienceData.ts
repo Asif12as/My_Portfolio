@@ -15,8 +15,8 @@ const experienceData: Experience[] = [
     role: "Frontend Developer",
     company: "Pactfolio",
     location: "Remote (Canada-based Startup)",
-    startDate: "Mar 2025",
-    endDate: "Jun 2025",
+    startDate: "Feb 2025",
+    endDate: "May 2025",
     description: [
       "Handled the complete merchant application development for a Canadian startup",
       "Worked in a fast-paced startup environment requiring quick adaptation and delivery",
