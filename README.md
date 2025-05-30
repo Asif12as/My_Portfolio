@@ -1,5 +1,4 @@
 # Developer Portfolio
-
 ![Portfolio Home Preview](prtfoliohme.JPG)
 
 A modern, responsive developer portfolio built with React, TypeScript, and Tailwind CSS.
